@@ -60,7 +60,7 @@ class ExrAutoPassSaver(bpy.types.Operator):
         outputNode.location = (400, 450)
         outputNode.width = 300
         outputNode.use_custom_color = True
-        outputNode.color = (0.686, 0.204, 0.176)
+        outputNode.color = (0.633, 0.686, 0.363)
         context.scene.render.image_settings.file_format = 'OPEN_EXR_MULTILAYER'
 
         for output in layersNode.outputs:
