@@ -1,6 +1,8 @@
-# Blender_Exr_auto-pass_saver
+# Blender_Exr_auto-pass_saver - Blender 4.1 Compatible
 Link all render passes in Blender to a new EXR-mulitlayer save node
-Slight update to function with Blender 4.1.
+
+Andy - "Slight update to function with Blender 4.1."
+
 
 Exr Auto Save Pass Saver Python Script which automatically creates an Exr MultiLayer Node, copy all Pass Nodes to it and links all Render Layer nodes between them.
 
